@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenScape Garden Design | Sustainable Landscaping & Outdoor Living</title>
+    <!-- Meta Description for SEO -->
+    <meta name="description" content="GreenScape Garden Design specializes in sustainable landscaping, eco-friendly garden design, and creating beautiful outdoor living spaces. Request a free consultation today!">
+    <!-- Keywords for SEO -->
+    <meta name="keywords" content="sustainable garden design, landscape architect, outdoor living spaces, drought-resistant plants, eco-friendly landscaping, garden maintenance, landscape design, garden consultation, Nipun Varshneya, Aastha Singh">
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts - Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8f8f8; /* Light background */
+            color: #333; /* Dark text */
+        }
+        /* Custom scrollbar for a cleaner look */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #888;
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Header Section -->
+    <header class="bg-white shadow-md py-4 px-6 md:px-12 sticky top-0 z-50 rounded-b-lg">
+        <nav class="container mx-auto flex justify-between items-center">
+            <!-- H1 for Company Name - Optimized for SEO -->
+            <h1 class="text-2xl md:text-3xl font-bold text-green-700">
+                <a href="index.html" class="hover:text-green-800 transition duration-300">GreenScape</a>
+            </h1>
+            <!-- Mobile Menu Button -->
+            <div class="md:hidden">
+                <button id="mobile-menu-button" class="text-gray-600 hover:text-gray-800 focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+            <!-- Desktop Navigation -->
+            <ul id="main-nav" class="hidden md:flex space-x-6 lg:space-x-8">
+                <li><a href="index.html#home" class="text-gray-600 hover:text-green-700 font-medium transition duration-300">Home</a></li>
+                <li><a href="index.html#about" class="text-gray-600 hover:text-green-700 font-medium transition duration-300">About Us</a></li>
+                <li><a href="index.html#services" class="text-gray-600 hover:text-green-700 font-medium transition duration-300">Services</a></li>
+                <li><a href="index.html#portfolio" class="text-gray-600 hover:text-green-700 font-medium transition duration-300">Portfolio</a></li>
+                <li><a href="index.html#team" class="text-gray-600 hover:text-green-700 font-medium transition duration-300">Team</a></li>
+                <li><a href="index.html#contact" class="text-gray-600 hover:text-green-700 font-medium transition duration-300">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- Mobile Navigation (hidden by default) -->
+        <div id="mobile-menu" class="hidden md:hidden mt-4 bg-white rounded-lg shadow-lg">
+            <ul class="flex flex-col space-y-2 p-4">
+                <li><a href="index.html#home" class="block text-gray-600 hover:text-green-700 font-medium py-2">Home</a></li>
+                <li><a href="index.html#about" class="block text-gray-600 hover:text-green-700 font-medium py-2">About Us</a></li>
+                <li><a href="index.html#services" class="block text-gray-600 hover:text-green-700 font-medium py-2">Services</a></li>
+                <li><a href="index.html#portfolio" class="block text-gray-600 hover:text-green-700 font-medium py-2">Portfolio</a></li>
+                <li><a href="index.html#team" class="block text-gray-600 hover:text-green-700 font-medium py-2">Team</a></li>
+                <li><a href="index.html#contact" class="block text-gray-600 hover:text-green-700 font-medium py-2">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative bg-gradient-to-r from-green-600 to-green-800 text-white py-20 md:py-32 overflow-hidden rounded-b-lg shadow-lg">
+        <div class="container mx-auto text-center px-6">
+            <!-- H2 for Hero Headline - Keyword Optimized -->
+            <h2 class="text-4xl md:text-6xl font-extrabold leading-tight mb-6">
+                Transform Your Outdoor Space with <span class="text-green-200">Sustainable Garden Design</span>
+            </h2>
+            <p class="text-lg md:text-xl mb-10 max-w-3xl mx-auto opacity-90">
+                Crafting beautiful, eco-friendly landscapes and vibrant outdoor living spaces tailored to your vision.
+            </p>
+            <!-- Call-to-Action (CTA) -->
+            <a href="index.html#contact" class="bg-white text-green-700 hover:bg-green-100 px-8 py-4 rounded-full text-lg font-semibold shadow-lg transition duration-300 transform hover:scale-105">
+                Request a Free Consultation
+            </a>
+        </div>
+        <!-- Background elements for visual appeal -->
+        <div class="absolute inset-0 z-0 opacity-10">
+            <svg class="w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice">
+                <defs>
+                    <pattern id="pattern-circles" x="0" y="0" width="10" height="10" patternUnits="userSpaceOnUse">
+                        <circle cx="2" cy="2" r="1" fill="rgba(255,255,255,0.2)"></circle>
+                    </pattern>
+                </defs>
+                <rect x="0" y="0" width="100%" height="100%" fill="url(#pattern-circles)"></rect>
+            </svg>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-16 md:py-24 bg-white">
+        <div class="container mx-auto px-6 text-center max-w-4xl">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-8">About GreenScape Garden Design</h2>
+            <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                At GreenScape, we believe in creating outdoor spaces that are not only beautiful but also sustainable and harmonious with nature. With over 15 years of experience, our passionate team of landscape architects and designers is dedicated to transforming your vision into a thriving reality.
+            </p>
+            <p class="text-lg text-gray-700 leading-relaxed">
+                We specialize in eco-friendly practices, water-wise landscaping, and crafting unique outdoor living areas that enhance your lifestyle and contribute positively to the environment. Our commitment to quality, creativity, and client satisfaction is at the heart of everything we do.
+            </p>
+            <!-- Removed the large "Our Team" image from here -->
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-16 md:py-24 bg-gray-50">
+        <div class="container mx-auto px-6 text-center">
+            <!-- H2 for Services - Keyword Optimized -->
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-12">Our Sustainable Garden Services</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Service Card 1 -->
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-2">
+                    <div class="text-green-600 mb-4">
+                        <svg class="w-12 h-12 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 10l-2 1m0 0l-2-1m2 1v2.5M20 7a9 9 0 00-18 0h18zm-1 0a9 9 0 01-16.5 0M12 14.5a2.5 2.5 0 100-5 2.5 2.5 0 000 5z"></path>
+                        </svg>
+                    </div>
+                    <!-- H3 for Service Title - Keyword Optimized -->
+                    <h3 class="text-xl font-semibold text-gray-700 mb-4">Sustainable Landscape Design</h3>
+                    <p class="text-gray-600">
+                        Expert planning and design for eco-friendly and water-wise landscapes that thrive in your local climate.
+                    </p>
+                    <a href="sustainable-design.html" class="text-green-600 hover:text-green-800 font-medium mt-4 inline-block">Learn More &rarr;</a>
+                </div>
+                <!-- Service Card 2 -->
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-2">
+                    <div class="text-green-600 mb-4">
+                        <svg class="w-12 h-12 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path>
+                        </svg>
+                    </div>
+                    <!-- H3 for Service Title -->
+                    <h3 class="text-xl font-semibold text-gray-700 mb-4">Outdoor Living Space Creation</h3>
+                    <p class="text-gray-600">
+                        Designing and building beautiful patios, decks, pergolas, and outdoor kitchens for ultimate enjoyment.
+                    </p>
+                    <a href="outdoor-living-spaces.html" class="text-green-600 hover:text-green-800 font-medium mt-4 inline-block">Learn More &rarr;</a>
+                </div>
+                <!-- Service Card 3 -->
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-2">
+                    <div class="text-green-600 mb-4">
+                        <svg class="w-12 h-12 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M17 12h.01"></path>
+                        </svg>
+                    </div>
+                    <!-- H3 for Service Title -->
+                    <h3 class="text-xl font-semibold text-gray-700 mb-4">Garden Maintenance & Consultation</h3>
+                    <p class="text-gray-600">
+                        Ongoing care, seasonal clean-ups, and expert advice to keep your garden looking its best.
+                    </p>
+                    <a href="garden-maintenance.html" class="text-green-600 hover:text-green-800 font-medium mt-4 inline-block">Learn More &rarr;</a>
+                </div>
+                <!-- New Service Card 4 -->
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-2">
+                    <div class="text-green-600 mb-4">
+                        <svg class="w-12 h-12 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-700 mb-4">Water-Wise Landscaping</h3>
+                    <p class="text-gray-600">
+                        Specialized designs focusing on drought-tolerant plants and efficient irrigation systems.
+                    </p>
+                    <a href="water-wise-landscaping.html" class="text-green-600 hover:text-green-800 font-medium mt-4 inline-block">Learn More &rarr;</a>
+                </div>
+                <!-- New Service Card 5 -->
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-2">
+                    <div class="text-green-600 mb-4">
+                        <svg class="w-12 h-12 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.828 0L6.343 16.657a8 8 0 1111.314 0z"></path>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-700 mb-4">Local Plant Sourcing & Installation</h3>
+                    <p class="text-gray-600">
+                        Sourcing and installing native and adapted plants best suited for your local ecosystem.
+                    </p>
+                    <a href="local-plant-sourcing.html" class="text-green-600 hover:text-green-800 font-medium mt-4 inline-block">Learn More &rarr;</a>
+                </div>
+                <!-- New Service Card 6 -->
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-2">
+                    <div class="text-green-600 mb-4">
+                        <svg class="w-12 h-12 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-700 mb-4">Permaculture & Edible Gardens</h3>
+                    <p class="text-gray-600">
+                        Designing productive and self-sustaining edible landscapes for your home.
+                    </p>
+                    <a href="permaculture-edible-gardens.html" class="text-green-600 hover:text-green-800 font-medium mt-4 inline-block">Learn More &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-16 md:py-24 bg-white">
+        <div class="container mx-auto px-6 text-center">
+            <!-- H2 for Portfolio - Keyword Optimized -->
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-12">Our Latest Garden Transformations</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Portfolio Item 1 -->
+                <div class="bg-gray-100 rounded-xl shadow-lg overflow-hidden">
+                    <img src="https://placehold.co/600x400/A8DADC/2F4F4F?text=Modern+Oasis" alt="Modern Oasis Garden Design" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-700 mb-2">Modern Oasis in the City</h3>
+                        <p class="text-gray-600">A sleek, low-maintenance design perfect for urban living, featuring native plants.</p>
+                        <a href="#" class="text-green-600 hover:text-green-800 font-medium mt-3 inline-block">View Project &rarr;</a>
+                    </div>
+                </div>
+                <!-- Portfolio Item 2 -->
+                <div class="bg-gray-100 rounded-xl shadow-lg overflow-hidden">
+                    <img src="https://placehold.co/600x400/C8E6C9/2F4F4F?text=Eco-Friendly+Backyard" alt="Eco-Friendly Backyard Transformation" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-700 mb-2">Eco-Friendly Backyard Retreat</h3>
+                        <p class="text-gray-600">Utilizing drought-resistant plants and rainwater harvesting for a sustainable space.</p>
+                        <a href="#" class="text-green-600 hover:text-green-800 font-medium mt-3 inline-block">View Project &rarr;</a>
+                    </div>
+                </div>
+                <!-- Portfolio Item 3 -->
+                <div class="bg-gray-100 rounded-xl shadow-lg overflow-hidden">
+                    <img src="https://placehold.co/600x400/D4EDDA/2F4F4F?text=Family+Garden" alt="Family-Friendly Garden Design" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-700 mb-2">Vibrant Family Garden</h3>
+                        <p class="text-gray-600">A colorful and safe space designed for family enjoyment and outdoor activities.</p>
+                        <a href="#" class="text-green-600 hover:text-green-800 font-medium mt-3 inline-block">View Project &rarr;</a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="mt-12 inline-block bg-green-600 text-white px-8 py-4 rounded-full text-lg font-semibold shadow-lg hover:bg-green-700 transition duration-300 transform hover:scale-105">
+                View All Projects
+            </a>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-16 md:py-24 bg-gray-50">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-12">What Our Clients Say</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                <!-- Testimonial 1 -->
+                <div class="bg-white p-8 rounded-xl shadow-lg">
+                    <p class="text-gray-700 italic mb-4">"GreenScape transformed our barren backyard into a lush, vibrant oasis. Their attention to detail and commitment to sustainability truly impressed us!"</p>
+                    <p class="font-semibold text-green-700">- Jane Doe, San Diego, CA</p>
+                </div>
+                <!-- Testimonial 2 -->
+                <div class="bg-white p-8 rounded-xl shadow-lg">
+                    <p class="text-gray-700 italic mb-4">"Professional, creative, and incredibly knowledgeable about native plants. Our new garden is not only beautiful but also incredibly low-maintenance."</p>
+                    <p class="font-semibold text-green-700">- John Smith, Los Angeles, CA</p>
+                </div>
+                <!-- Testimonial 3 -->
+                <div class="bg-white p-8 rounded-xl shadow-lg">
+                    <p class="text-gray-700 italic mb-4">"From concept to completion, GreenScape exceeded our expectations. Our outdoor living space is now the highlight of our home!"</p>
+                    <p class="font-semibold text-green-700">- Emily White, Pasadena, CA</p>
+                </div>
+                <!-- Testimonial 4 -->
+                <div class="bg-white p-8 rounded-xl shadow-lg">
+                    <p class="text-gray-700 italic mb-4">"We highly recommend GreenScape for anyone looking for innovative and sustainable garden solutions. Truly a pleasure to work with."</p>
+                    <p class="font-semibold text-green-700">- Michael Brown, Santa Monica, CA</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="py-16 md:py-24 bg-white">
+        <div class="container mx-auto px-6 text-center">
+            <!-- The heading is now the primary visual element for the team section -->
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-12">Meet Our Talented Team</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 justify-center max-w-2xl mx-auto">
+                <!-- Team Member 1: Nipun Varshneya -->
+                <div class="bg-gray-50 p-6 rounded-xl shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-2 flex flex-col items-center">
+                    <img src="https://placehold.co/150x150/94a3b8/e2e8f0?text=NV" alt="Nipun Varshneya Profile" class="rounded-full w-32 h-32 object-cover mb-4 shadow-md">
+                    <h3 class="text-xl font-semibold text-gray-700 mb-1">Nipun Varshneya</h3>
+                    <p class="text-green-600 font-medium mb-2">Co-Founder & Lead Designer</p>
+                    <p class="text-gray-600 text-sm mb-4">
+                        Nipun brings a passion for innovative and eco-conscious design, turning client visions into breathtaking realities with a focus on sustainability.
+                    </p>
+                    <a href="mailto:varshneya.nipun@gmail.com" class="text-gray-600 hover:text-green-700 text-sm">varshneya.nipun@gmail.com</a>
+                </div>
+                <!-- Team Member 2: Aastha Singh -->
+                <div class="bg-gray-50 p-6 rounded-xl shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-2 flex flex-col items-center">
+                    <img src="https://placehold.co/150x150/94a3b8/e2e8f0?text=AS" alt="Aastha Singh Profile" class="rounded-full w-32 h-32 object-cover mb-4 shadow-md">
+                    <h3 class="text-xl font-semibold text-gray-700 mb-1">Aastha Singh</h3>
+                    <p class="text-green-600 font-medium mb-2">Co-Founder & Project Manager</p>
+                    <p class="text-gray-600 text-sm mb-4">
+                        Aastha ensures every project is executed flawlessly, on time and within budget, with meticulous attention to detail and client satisfaction.
+                    </p>
+                    <a href="mailto:aastha.singh@gmail.com" class="text-gray-600 hover:text-green-700 text-sm">aastha.singh@gmail.com</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section with Enhanced Form -->
+    <section id="contact" class="py-16 md:py-24 bg-green-700 text-white rounded-t-lg shadow-lg">
+        <div class="container mx-auto px-6 text-center">
+            <!-- H2 for Contact - Keyword Optimized -->
+            <h2 class="text-3xl md:text-4xl font-bold mb-8">Request a Free Consultation</h2>
+            <p class="text-lg mb-10 max-w-2xl mx-auto opacity-90">
+                Tell us about your project, and our team will get back to you to schedule a personalized consultation.
+            </p>
+            <div class="max-w-2xl mx-auto bg-white p-8 rounded-xl shadow-2xl text-gray-800">
+                <form action="mailto:info@greenscape.com" method="post" enctype="text/plain" class="space-y-6 text-left">
+                    <div>
+                        <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Your Full Name <span class="text-red-500">*</span></label>
+                        <input type="text" id="name" name="name" placeholder="John Doe" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-green-500 focus:border-green-500 transition duration-200" required>
+                    </div>
+                    <div>
+                        <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email Address <span class="text-red-500">*</span></label>
+                        <input type="email" id="email" name="email" placeholder="you@example.com" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-green-500 focus:border-green-500 transition duration-200" required>
+                    </div>
+                    <div>
+                        <label for="phone" class="block text-sm font-medium text-gray-700 mb-1">Phone Number (Optional)</label>
+                        <input type="tel" id="phone" name="phone" placeholder="123-456-7890" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-green-500 focus:border-green-500 transition duration-200">
+                    </div>
+                    <div>
+                        <label for="address" class="block text-sm font-medium text-gray-700 mb-1">Project Address <span class="text-red-500">*</span></label>
+                        <input type="text" id="address" name="address" placeholder="123 Main St, Anytown, CA 90210" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-green-500 focus:border-green-500 transition duration-200" required>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div>
+                            <label for="project_type" class="block text-sm font-medium text-gray-700 mb-1">Type of Project <span class="text-red-500">*</span></label>
+                            <select id="project_type" name="project_type" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-green-500 focus:border-green-500 transition duration-200 bg-white" required>
+                                <option value="">Select Project Type</option>
+                                <option value="full-redesign">Full Garden Redesign</option>
+                                <option value="patio-deck">Patio/Deck Installation</option>
+                                <option value="planting-landscaping">Planting & Landscaping</option>
+                                <option value="maintenance">Garden Maintenance</option>
+                                <option value="consultation">Consultation Only</option>
+                                <option value="other">Other (Please specify below)</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="property_type" class="block text-sm font-medium text-gray-700 mb-1">Property Type <span class="text-red-500">*</span></label>
+                            <select id="property_type" name="property_type" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-green-500 focus:border-green-500 transition duration-200 bg-white" required>
+                                <option value="">Select Property Type</option>
+                                <option value="single-family">Single-Family Home</option>
+                                <option value="townhouse">Townhouse</option>
+                                <option value="condo">Apartment/Condo</option>
+                                <option value="commercial">Commercial Property</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div>
+                            <label for="budget" class="block text-sm font-medium text-gray-700 mb-1">Estimated Budget <span class="text-red-500">*</span></label>
+                            <select id="budget" name="budget" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-green-500 focus:border-green-500 transition duration-200 bg-white" required>
+                                <option value="">Select Budget Range</option>
+                                <option value="5k-10k">$5,000 - $10,000</option>
+                                <option value="10k-25k">$10,001 - $25,000</option>
+                                <option value="25k-50k">$25,001 - $50,000</option>
+                                <option value="50k+">$50,000+</option>
+                                <option value="undecided">Undecided / Just Exploring</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="timeline" class="block text-sm font-medium text-gray-700 mb-1">Desired Timeline <span class="text-red-500">*</span></label>
+                            <select id="timeline" name="timeline" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-green-500 focus:border-green-500 transition duration-200 bg-white" required>
+                                <option value="">Select Timeline</option>
+                                <option value="1-3months">Within 1-3 Months</option>
+                                <option value="3-6months">3-6 Months</option>
+                                <option value="6+months">6+ Months</option>
+                                <option value="exploring">Just Exploring Ideas</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div>
+                        <label for="current_condition" class="block text-sm font-medium text-gray-700 mb-1">Describe Current Garden Condition / Project Ideas</label>
+                        <textarea id="current_condition" name="current_condition" rows="4" placeholder="e.g., 'Our backyard is mostly grass, we'd like to add a patio and some drought-tolerant plants.' " class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-green-500 focus:border-green-500 transition duration-200"></textarea>
+                    </div>
+
+                    <div>
+                        <label for="project_files" class="block text-sm font-medium text-gray-700 mb-1">Upload Photos/Files (Optional)</label>
+                        <input type="file" id="project_files" name="project_files" accept="image/*,.pdf" multiple class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-green-500 focus:border-green-500 transition duration-200 bg-white text-gray-700 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-green-50 file:text-green-700 hover:file:bg-green-100">
+                        <p class="text-xs text-gray-500 mt-1">Max 5 files, each up to 2MB. Accepted formats: JPG, PNG, PDF.</p>
+                    </div>
+
+                    <div class="flex items-center">
+                        <input type="checkbox" id="privacy_consent" name="privacy_consent" class="h-4 w-4 text-green-600 focus:ring-green-500 border-gray-300 rounded" required>
+                        <label for="privacy_consent" class="ml-2 block text-sm text-gray-900">
+                            I agree to the <a href="#" class="text-green-600 hover:underline">Privacy Policy</a> and <a href="#" class="text-green-600 hover:underline">Terms of Service</a> <span class="text-red-500">*</span>
+                        </label>
+                    </div>
+
+                    <button type="submit" class="w-full bg-green-600 text-white px-6 py-3 rounded-full text-lg font-semibold shadow-md hover:bg-green-800 transition duration-300 transform hover:scale-105">
+                        Submit Consultation Request
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-800 text-white py-8 px-6 text-center rounded-t-lg">
+        <div class="container mx-auto">
+            <p class="mb-4">&copy; 2025 GreenScape Garden Design. All rights reserved.</p>
+            <div class="flex justify-center space-x-6">
+                <!-- Social Media Integration -->
+                <a href="#" class="text-gray-400 hover:text-white transition duration-300" aria-label="Facebook">
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" />
+                    </svg>
+                </a>
+                <a href="#" class="text-gray-400 hover:text-white transition duration-300" aria-label="Instagram">
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.715.056 8.969.327 10.153 1.54 10.43 10.43.043.93.056 1.286.056 3.715s-.013 2.784-.056 3.715c-.327 8.969-1.54 10.153-10.43 10.43-.93.043-1.286.056-3.715.056s-2.784-.013-3.715-.056c-8.969-.327-10.153-1.54-10.43-10.43-.043-.93-.056-1.286-.056-3.715s.013-2.784.056-3.715c.327-8.969 1.54-10.153 10.43-10.43.93-.043 1.286-.056 3.715-.056zM12 4.076c-2.439 0-2.686.01-3.67.054-7.104.327-7.693.99-7.962 7.962-.044.984-.054 1.23-.054 3.67s.01 2.686.054 3.67c.327 7.104.99 7.693 7.962 7.962.984.044 1.23.054 3.67.054s2.686-.01 3.67-.054c7.104-.327 7.693-.99 7.962-7.962-.044-.984-.054-1.23-.054-3.67s-.01-2.686-.054-3.67c-.327-7.104-.99-7.693-7.962-7.962-.984-.044-1.23-.054-3.67-.054zM12 7.5c2.485 0 4.5 2.015 4.5 4.5s-2.015 4.5-4.5 4.5-4.5-2.015-4.5-4.5 2.015-4.5 4.5-4.5zm0 2a2.5 2.5 0 100 5 2.5 2.5 0 000-5z" clip-rule="evenodd" />
+                    </svg>
+                </a>
+                <a href="#" class="text-gray-400 hover:text-white transition duration-300" aria-label="Twitter">
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 10.42c-.004.052-.004.104-.004.156A4.102 4.102 0 005.2 14.72a4.107 4.107 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.188a11.644 11.644 0 006.29 2.063c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 10.42c-.004.052-.004.104-.004.156A4.102 4.102 0 005.2 14.72a4.107 4.107 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.188a11.644 11.644 0 006.29 2.063z" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // JavaScript for mobile menu toggle
+        document.getElementById('mobile-menu-button').addEventListener('click', function() {
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Close mobile menu when a link is clicked
+        const mobileNavLinks = document.querySelectorAll('#mobile-menu a');
+        mobileNavLinks.forEach(link => {
+            link.addEventListener('click', function() {
+                document.getElementById('mobile-menu').classList.add('hidden');
+            });
+        });
+
+        // Smooth scrolling for navigation links (only for internal links on the same page)
+        document.querySelectorAll('a[href^="index.html#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                // Get the hash part of the href (e.g., #home, #about)
+                const hash = this.getAttribute('href').split('#')[1];
+                // Check if the hash exists on the current page
+                if (hash && document.getElementById(hash)) {
+                    e.preventDefault();
+                    document.getElementById(hash).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>
